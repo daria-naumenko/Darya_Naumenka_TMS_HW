@@ -16,13 +16,13 @@ public class Main {
 
             int number = in.nextInt();
             System.out.println("Вы ввели число " + number);
-            if (number > 0 & number < 15) {
+            if (number > 0 && number < 15) {
                 System.out.println("Группа 1");
                 for (int i = 0; i < 1; i++) {
                     System.out.println("Не ешьте на ночь сырых помидоров! - Остап Бендер");
                 }
                 System.out.println("Хотите продолжить? Нажмите Enter, иначе введите 'выход' ");
-            } else if (number < 30 & number >= 15) {
+            } else if (number < 30 && number >= 15) {
                 System.out.println("Группа 2");
                 for (int i = 0; i < 2; i++) {
                     System.out.println("Не ешьте на ночь сырых помидоров! - Остап Бендер");
