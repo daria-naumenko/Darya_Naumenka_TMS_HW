@@ -9,12 +9,11 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        while (true) {
 
+        while (true) {
             Scanner in = new Scanner(System.in);
 
             System.out.println("Введите число");
-
             int number = in.nextInt();
             System.out.println("Вы ввели число " + number);
             if (number > 0 && number < 15) {
@@ -40,11 +39,8 @@ public class Main {
                 System.out.println("Хотите проверить? Нажмите Enter, иначе введите 'выход' ");
             }
 
-            String input;
-            String exit = "выход";
             input = reader.readLine();
-            if (exit.equals(input)) break;
-
+            if (exit.equals("exit")) break;
         }
     }
 }
