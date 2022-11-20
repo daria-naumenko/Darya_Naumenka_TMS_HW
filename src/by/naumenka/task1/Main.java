@@ -22,7 +22,7 @@ public class Main {
         Contact secondPhone = new Contact("Даша ", "+375293593340");
         Contact thirdPhone = new Contact("Катя ", "+375447456223");
 
-        Phone phone = new Phone("+375442323235 ", "Samsung ", 150);
+      Phone phone = new Phone("+375442323235 ", "Samsung ", 150);
 
         phone.receiveCall(firstPhone);
         phone.receiveCall(secondPhone);
