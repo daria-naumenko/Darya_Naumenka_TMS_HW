@@ -18,18 +18,13 @@ package by.naumenka.task1;
 public class Main {
     public static void main(String[] args) {
 
-        Contact firstPhone = new Contact("Егор ", "+375291405567");
-        Contact secondPhone = new Contact("Даша ", "+375293593340");
-        Contact thirdPhone = new Contact("Катя ", "+375447456223");
+        Phone phone = new Phone("111 ", "Samsung ", 150);
+        phone.contact[0] = new Contact("Егор", " +375291405567");
+        phone.contact[1] = new Contact("Даша", " +375293593340");
+        phone.contact[2] = new Contact("Катя", " +375447456223");
 
-      Phone phone = new Phone("+375442323235 ", "Samsung ", 150);
-
-        phone.receiveCall(firstPhone);
-        phone.receiveCall(secondPhone);
-        phone.receiveCall(thirdPhone);
-
-        System.out.println("\n" + phone.getNumber() + phone.getModel() + phone.getWeight());
-
-        phone.sendMessage("\n" + "Отправить сообщение: " + "\n" + firstPhone + "\n" + secondPhone + "\n" + thirdPhone + "\n" + "Как дела?");
+       phone.receiveCall(phone.receiveCall("Егор", " +375291405567"));
+        System.out.println(phone.getNumber() + phone.getModel() + phone.getWeight());
+        phone.sendMessage("\n" + "Отправить сообщение: ", "Как дела?" + "\n" + phone.contact[0] + "\n" + phone.contact[1] + "\n" + phone.contact[2]);
     }
 }

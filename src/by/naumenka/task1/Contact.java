@@ -20,8 +20,8 @@ public class Contact {
     @Override
     public String toString() {
         return "Контакт {" +
-                " имя = '" + nameContact + '\'' +
-                ", номер = '" + number + '\'' +
+                " имя = '" + getNameContact() + '\'' +
+                ", номер = '" + getNumber() + '\'' +
                 '}';
     }
 }

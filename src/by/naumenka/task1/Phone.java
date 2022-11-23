@@ -29,16 +29,20 @@ public class Phone {
         return model;
     }
 
+    Contact contactWeAreLooking = null;
+
     public void receiveCall(Contact contact) {
         System.out.println("Вам звонит " + contact.getNameContact() + contact.getNumber());
     }
 
-    public void receiveCall(String nameContact, String number){ //не понимаю для чего этот метод
+    public Contact receiveCall(String getNameContact, String getNumber) {
         for (int i = 0; i < contact.length; i++) {
-            if (contact[i] != null)
-                System.out.println(contact[i]);
-            break;
+            if (contact[i].getNameContact().equals(getNameContact) &&
+                    contact[i].getNumber().equals(getNumber)) {
+                contactWeAreLooking = contact[i];
+            }
         }
+        return contactWeAreLooking;
     }
 
     public void sendMessage(String... contact) {
