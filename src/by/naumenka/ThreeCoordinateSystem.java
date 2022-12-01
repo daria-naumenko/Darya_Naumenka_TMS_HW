@@ -2,7 +2,7 @@ package by.naumenka;
 
 public class ThreeCoordinateSystem {
     private double x, y, z;
-    public final String FIRSTINFO = "Вектор в трехмерной системе координат";
+    public static final String FIRSTINFO = "Вектор в трехмерной системе координат";
 
     public ThreeCoordinateSystem(double x, double y, int z) {
         this.x = x;

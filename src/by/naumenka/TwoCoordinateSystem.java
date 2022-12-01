@@ -2,7 +2,7 @@ package by.naumenka;
 
 public class TwoCoordinateSystem {
     private double x, y;
-    public final String SECONDINFO = "Вектор в двухмерной системе координат";
+    public static final String SECONDINFO = "Вектор в двухмерной системе координат";
 
     public TwoCoordinateSystem(double x, double y) {
         this.x = x;
