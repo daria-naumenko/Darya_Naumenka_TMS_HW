@@ -1,5 +1,13 @@
 package by.naumenka.task1;
 
+import by.naumenka.task1.Exception.ContainsABCException;
+import by.naumenka.task1.Exception.End1a2bException;
+import by.naumenka.task1.Exception.Start555Exception;
+
+import static by.naumenka.task1.Exception.ContainsABCException.DESCRIPTION2;
+import static by.naumenka.task1.Exception.End1a2bException.DESCRIPTION3;
+import static by.naumenka.task1.Exception.Start555Exception.DESCRIPTION;
+
 public class Document {
 
     public static void firstMethod(String text) {
@@ -30,28 +38,35 @@ public class Document {
         System.out.println("Вывели буквы в формате Letters:yyy/yyy/y/y в верхнем регистре " + stringBuilder);
     }
 
-    public static void fifthMethod(String text) {
+    public static void fifthMethod(String text) throws ContainsABCException {
         text = text.toUpperCase();
+        try {
         if (text.contains("ABC")) {
-            System.out.println("Да, строка содержит ABC");
-        } else {
-            System.out.println("Нет, строка не содержит ABC");
+            throw new ContainsABCException("ИСКЛЮЧЕНИЕ ");
+        }
+        } catch (ContainsABCException ex) {
+            System.out.println(ex.getMessage() + DESCRIPTION2);
         }
     }
 
-    public static void sixthMethod(String text) {
-        if (text.startsWith("555")) {
-            System.out.println("Да, строка начинается с 555");
-        } else {
-            System.out.println("Нет, строка не начинается 555");
+
+    public static void sixthMethod(String text) throws Start555Exception {
+        try {
+            if (text.startsWith("555")) {
+                throw new Start555Exception("ИСКЛЮЧЕНИЕ ");
+            }
+        } catch (Start555Exception ex) {
+                    System.out.println(ex.getMessage() + DESCRIPTION);
         }
     }
 
-    public static void seventhMethod(String text) {
+    public static void seventhMethod(String text) throws End1a2bException {
+        try{
         if (text.endsWith("1a2b")) {
-            System.out.println("Да, строка заканчивается на 1a2b");
-        } else {
-            System.out.println("Нет, строка не заканчивается 1a2b");
+            throw new End1a2bException("ИСКЛЮЧЕНИЕ ");
+        }
+        } catch (End1a2bException ex){
+            System.out.println(ex.getMessage() + DESCRIPTION3);
         }
     }
 }
