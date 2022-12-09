@@ -1,4 +1,4 @@
-package by.naumenka;
+package by.naumenka.lesson9;
 
 public class ThreeCoordinateSystem {
     private double x, y, z;

@@ -1,4 +1,4 @@
-package by.naumenka;
+package by.naumenka.lesson9;
 
 public class TwoCoordinateSystem {
     private double x, y;
