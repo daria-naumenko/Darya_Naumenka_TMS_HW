@@ -1,4 +1,4 @@
-package by.naumenka.task6;
+package by.naumenka.task4_6;
 
 import java.util.Arrays;
 

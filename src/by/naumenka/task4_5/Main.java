@@ -1,4 +1,4 @@
-package by.naumenka.task5;
+package by.naumenka.task4_5;
 
 import java.util.Arrays;
 import java.util.Scanner;
