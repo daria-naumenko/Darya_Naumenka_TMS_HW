@@ -1,4 +1,4 @@
-package by.naumenka.task1;
+package by.naumenka.lesson7.task1;
 
 public class Rectangle extends Figure {
     double a, b;

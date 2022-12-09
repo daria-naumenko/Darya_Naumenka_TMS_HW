@@ -1,4 +1,4 @@
-package by.naumenka.task2;
+package by.naumenka.lesson7.task2;
 
 public class Director implements PositionPrintable{
 
