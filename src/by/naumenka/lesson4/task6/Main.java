@@ -1,4 +1,4 @@
-package by.naumenka.lesson4.task4_6;
+package by.naumenka.lesson4.task6;
 
 import java.util.Arrays;
 
