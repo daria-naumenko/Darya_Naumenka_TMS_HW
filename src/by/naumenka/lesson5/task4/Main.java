@@ -1,4 +1,4 @@
-package by.naumenka.task4;
+package by.naumenka.lesson5.task4;
 
 //4. Создайте двумерный массив целых чисел. Выведите на консоль сумму всех элементов массива.
 
