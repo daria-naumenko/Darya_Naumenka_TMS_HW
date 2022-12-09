@@ -1,4 +1,4 @@
-package by.naumenka;
+package by.naumenka.task3_1;
 
 import java.util.Scanner;
 
