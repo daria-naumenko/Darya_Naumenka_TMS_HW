@@ -1,4 +1,4 @@
-package by.naumenka.task1;
+package by.naumenka.lesson10.task1;
 
 public class Document {
 
