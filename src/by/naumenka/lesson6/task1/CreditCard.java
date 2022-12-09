@@ -1,4 +1,4 @@
-package by.naumenka.task1;
+package by.naumenka.lesson6.task1;
 
 public class CreditCard {
     int id;

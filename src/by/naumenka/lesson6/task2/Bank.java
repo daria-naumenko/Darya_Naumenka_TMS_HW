@@ -1,4 +1,4 @@
-package by.naumenka.task2;
+package by.naumenka.lesson6.task2;
 
 public class Bank {
     int cash20;
