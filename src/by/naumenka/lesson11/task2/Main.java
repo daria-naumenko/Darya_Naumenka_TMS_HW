@@ -1,4 +1,4 @@
-package by.naumenka.task2;
+package by.naumenka.lesson11.task2;
 
 // Создать класс, в котором будет статический метод.
 //(почитать и понять, чем статический метод отличается от нестатического - обсудить на занятии по необходимости)
@@ -13,8 +13,8 @@ package by.naumenka.task2;
 // второй принимает сообщение исключения и передает его в конструктор класса Exception.
 //Метод возвращает true, если значения верны или false в другом случае.
 
-import by.naumenka.task2.Exception.WrongLoginException;
-import by.naumenka.task2.Exception.WrongPasswordException;
+import by.naumenka.lesson11.task2.Exception.WrongPasswordException;
+import by.naumenka.lesson11.task2.Exception.WrongLoginException;
 
 import java.util.Scanner;
 

@@ -1,10 +1,10 @@
-package by.naumenka.task2;
+package by.naumenka.lesson11.task2;
 
-import by.naumenka.task2.Exception.WrongLoginException;
-import by.naumenka.task2.Exception.WrongPasswordException;
+import by.naumenka.lesson11.task2.Exception.WrongLoginException;
+import by.naumenka.lesson11.task2.Exception.WrongPasswordException;
 
-import static by.naumenka.task2.Exception.WrongLoginException.DESCRIPTION_LOGIN;
-import static by.naumenka.task2.Exception.WrongPasswordException.DESCRIPTION_PASSWORD;
+import static by.naumenka.lesson11.task2.Exception.WrongLoginException.DESCRIPTION_LOGIN;
+import static by.naumenka.lesson11.task2.Exception.WrongPasswordException.DESCRIPTION_PASSWORD;
 
 public class Registration {
 

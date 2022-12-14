@@ -1,4 +1,4 @@
-package by.naumenka.task2.Exception;
+package by.naumenka.lesson11.task2.Exception;
 
 public class WrongLoginException extends Exception{
     private String message;

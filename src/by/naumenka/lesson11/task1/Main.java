@@ -1,4 +1,4 @@
-package by.naumenka.task1;
+package by.naumenka.lesson11.task1;
 
 //Доработать нулевое домашнее задание предыдущего урока.
 // Теперь надо создать свои классы исключений на каждую ситуацию:
@@ -10,9 +10,9 @@ package by.naumenka.task1;
 // перехватить исключение конструкцией try-catch и в блоке catch вывести сообщение для пользователя
 // (сообщение на консоль).
 
-import by.naumenka.task1.Exception.ContainsABCException;
-import by.naumenka.task1.Exception.End1a2bException;
-import by.naumenka.task1.Exception.Start555Exception;
+import by.naumenka.lesson11.task1.Exception.ContainsABCException;
+import by.naumenka.lesson11.task1.Exception.Start555Exception;
+import by.naumenka.lesson11.task1.Exception.End1a2bException;
 
 public class Main {
     public static void main(String[] args) throws Start555Exception, ContainsABCException, End1a2bException {

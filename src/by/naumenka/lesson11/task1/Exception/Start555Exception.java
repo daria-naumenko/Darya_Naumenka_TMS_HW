@@ -1,4 +1,4 @@
-package by.naumenka.task1.Exception;
+package by.naumenka.lesson11.task1.Exception;
 
 public class Start555Exception extends Exception {
     private String message;

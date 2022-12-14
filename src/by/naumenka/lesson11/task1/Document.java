@@ -1,12 +1,8 @@
-package by.naumenka.task1;
+package by.naumenka.lesson11.task1;
 
-import by.naumenka.task1.Exception.ContainsABCException;
-import by.naumenka.task1.Exception.End1a2bException;
-import by.naumenka.task1.Exception.Start555Exception;
-
-import static by.naumenka.task1.Exception.ContainsABCException.DESCRIPTION2;
-import static by.naumenka.task1.Exception.End1a2bException.DESCRIPTION3;
-import static by.naumenka.task1.Exception.Start555Exception.DESCRIPTION;
+import by.naumenka.lesson11.task1.Exception.ContainsABCException;
+import by.naumenka.lesson11.task1.Exception.End1a2bException;
+import by.naumenka.lesson11.task1.Exception.Start555Exception;
 
 public class Document {
 
@@ -45,7 +41,7 @@ public class Document {
             throw new ContainsABCException("ИСКЛЮЧЕНИЕ ");
         }
         } catch (ContainsABCException ex) {
-            System.out.println(ex.getMessage() + DESCRIPTION2);
+            System.out.println(ex.getMessage() + ContainsABCException.DESCRIPTION2);
         }
     }
 
@@ -56,7 +52,7 @@ public class Document {
                 throw new Start555Exception("ИСКЛЮЧЕНИЕ ");
             }
         } catch (Start555Exception ex) {
-                    System.out.println(ex.getMessage() + DESCRIPTION);
+                    System.out.println(ex.getMessage() + Start555Exception.DESCRIPTION);
         }
     }
 
@@ -66,7 +62,7 @@ public class Document {
             throw new End1a2bException("ИСКЛЮЧЕНИЕ ");
         }
         } catch (End1a2bException ex){
-            System.out.println(ex.getMessage() + DESCRIPTION3);
+            System.out.println(ex.getMessage() + End1a2bException.DESCRIPTION3);
         }
     }
 }
